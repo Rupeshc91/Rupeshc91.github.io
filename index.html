@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Save Status - Video, Image | Android app</title>
+<meta name="description" content="Save status videos & photos. Auto download, vault lock, share & repost.">
+<meta property="og:title" content="Save Status - Video, Image">
+<meta property="og:description" content="Save status videos & photos. Auto download, vault lock, share & repost.">
+<meta property="og:image" content="img/icon.png">
+<link rel="icon" href="img/icon.png">
+<style>
+:root{--g:#1fa855;--gd:#168a44;--ink:#14201a;--mut:#5b6a62;--bg:#f5faf7}
+*{box-sizing:border-box;margin:0}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--bg);line-height:1.5}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+header{padding:56px 0 32px;text-align:center}
+header img{width:96px;height:96px;border-radius:22px;box-shadow:0 6px 20px rgba(0,0,0,.15)}
+h1{font-size:clamp(28px,5vw,44px);margin:20px 0 8px}
+header p{color:var(--mut);font-size:18px;max-width:560px;margin:0 auto 28px}
+.btn{display:inline-block;background:var(--g);color:#fff;text-decoration:none;font-weight:600;padding:14px 28px;border-radius:999px;font-size:17px;transition:background .15s}
+.btn:hover,.btn:focus-visible{background:var(--gd)}
+.shots{display:flex;gap:18px;overflow-x:auto;padding:24px 20px 36px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.shots img{height:min(560px,70vh);width:auto;border-radius:18px;box-shadow:0 8px 24px rgba(0,0,0,.14);scroll-snap-align:center;flex:none;background:#fff}
+@media(min-width:1100px){.shots{justify-content:safe center}}
+.feat{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;padding:8px 0 48px}
+.feat div{background:#fff;border-radius:14px;padding:18px 20px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.feat h2{font-size:17px;margin-bottom:4px}
+.feat p{color:var(--mut);font-size:15px}
+.cta{text-align:center;padding-bottom:56px}
+footer{text-align:center;color:var(--mut);font-size:13px;padding:24px 20px 40px;border-top:1px solid #dde8e1}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <img src="img/icon.png" alt="Save Status app icon" width="96" height="96">
+  <h1>Save Status - Video, Image</h1>
+  <p>Save status videos &amp; photos in one tap. Auto download, vault lock, share &amp; repost.</p>
+  <a class="btn" href="https://play.google.com/store/apps/details?id=com.status.save.share.saveo.android" aria-label="Get Save Status on Google Play">Get it on Google Play</a>
+</header>
+
+<section class="shots" aria-label="App screenshots">
+  <img src="img/photos.jpg" alt="Photos tab" loading="lazy">
+  <img src="img/viewer.jpg" alt="Built-in viewer" loading="lazy">
+  <img src="img/videos.jpg" alt="Videos tab" loading="lazy">
+  <img src="img/saved.jpg" alt="Saved items" loading="lazy">
+  <img src="img/vault.jpg" alt="Private vault" loading="lazy">
+  <img src="img/settings.jpg" alt="Auto-save settings" loading="lazy">
+  <img src="img/fresh.jpg" alt="Fresh tab" loading="lazy">
+  <img src="img/language.jpg" alt="Language selection" loading="lazy">
+</section>
+
+<main class="wrap">
+  <div class="feat">
+    <div><h2>One-tap save</h2><p>Photos and videos go straight to your gallery as real files.</p></div>
+    <div><h2>Auto save</h2><p>Optional. Keeps new statuses before they expire.</p></div>
+    <div><h2>Vault</h2><p>Hide saved items behind your fingerprint or screen lock.</p></div>
+    <div><h2>Share &amp; repost</h2><p>Share saved statuses without digging through folders.</p></div>
+  </div>
+  <div class="cta">
+    <a class="btn" href="https://play.google.com/store/apps/details?id=com.status.save.share.saveo.android">Download on Google Play</a>
+  </div>
+</main>
+
+<footer>
+  &copy; 2026 Rupesh. Google Play and the Google Play logo are trademarks of Google LLC.
+</footer>
+</body>
+</html>
